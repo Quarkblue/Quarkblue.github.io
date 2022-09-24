@@ -77,6 +77,20 @@ section{
 .sec5{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: rgb(197, 145, 42);
+}
+
+.active{
+    display: block;
+    animation: scaleAnim 1s ease-in-out;
+    @keyframes scaleAnim{
+        0%{
+            transform: translateY(-100%) scaleY(0);
+        }
+        75%{
+            transform: translateY(0) scaleY(1)
+        }
+    }
 }
 
 //controls

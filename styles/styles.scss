@@ -289,6 +289,11 @@ section{
             line-height: 2rem;
             padding: 1rem;
             color: var(--color-grey-1);
+            .about-me-span{
+                color: var(--color-secondary);
+                font-weight: 300;
+                font-size: 1.5rem;
+            }
         }
         h4{
             font-size: 2rem;
@@ -711,7 +716,7 @@ section{
             transition: all .4s ease-in-out;
             z-index: -1;
             transform: translate(-50%, -50%);
-            font-weight: 800;
+            font-weight: 600;
             font-size: 6rem;
         }
     }

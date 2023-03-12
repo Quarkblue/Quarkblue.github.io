@@ -102,16 +102,7 @@ section {
 
 .active {
   display: block;
-  -webkit-animation: scaleAnim 1s ease-in-out;
-          animation: scaleAnim 1s ease-in-out;
-}
-@-webkit-keyframes scaleAnim {
-  0% {
-    transform: translateY(-100%) scaleY(0);
-  }
-  75% {
-    transform: translateY(0) scaleY(1);
-  }
+  animation: scaleAnim 1s ease-in-out;
 }
 @keyframes scaleAnim {
   0% {
@@ -354,10 +345,22 @@ section {
   width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .c {
-  width: 30%;
+  width: 50%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .cpp {
   width: 50%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .cs {
+  width: 50%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .unity {
+  width: 60%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .unreal2D {
+  width: 30%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .django {
+  width: 40%;
 }
 
 .stat-title {

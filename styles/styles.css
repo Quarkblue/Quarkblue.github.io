@@ -362,6 +362,9 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .django {
   width: 40%;
 }
+.about-stats .progress-bars .progress-bar .progress-con .progress .flutter {
+  width: 40%;
+}
 
 .stat-title {
   text-transform: uppercase;
